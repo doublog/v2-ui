@@ -61,7 +61,7 @@ systemctl daemon-reload
 systemctl enable v2-ui
 systemctl restart v2-ui
  
-curl -o /usr/bin/v2-ui -Ls https://raw.githubusercontent.com/sprov065/v2-ui/master/v2-ui.sh
+curl -o /usr/bin/v2-ui -Ls https://raw.githubusercontent.com/doublog/v2-ui/master/v2-ui.sh
 chmod +x /usr/bin/v2-ui
 ```
 安装完毕后，输入 v2-ui 命令，你会看到你想要的。
